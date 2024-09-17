@@ -1,0 +1,97 @@
+header {
+  background-color: black;
+}
+body {
+  margin: -3px;
+  width: auto;
+  padding: 3px;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+p {
+  font-family: "Gill Sans";
+}
+.container {
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+nav {
+  box-shadow: 0 0 12px -2px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: left;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  margin: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 10px 43px;
+}
+nav a {
+  color: rgb(255, 255, 255);
+}
+nav a:hover {
+  color: rgb(189, 7, 7);
+}
+.content {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.quote {
+  display: block;
+  font-family: "Gill Sans";
+  font-style: italic;
+  font-weight: 600;
+  color: rgb(209, 22, 22);
+}
+body {
+  text-align: center;
+}
+.hobbies {
+  display: block;
+  font-family: "Gill Sans";
+  text-align: left;
+}
+.project {
+  width: 100%;
+  background-color: #f8f8f8;
+  color: green;
+  margin: 10px;
+  padding: 1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
+.project-content img {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.portfolio-img {
+  flex-wrap: wrap;
+}
+h4 {
+  color: rgb(0, 128, 117);
+}
+#name {
+  text-align: "center";
+  font-family: "Gill Sans";
+}
+p {
+  color: black;
+}
+.hobbies {
+  padding-top: 40px;
+}
